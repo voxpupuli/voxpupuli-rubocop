@@ -23,4 +23,4 @@ jobs:
       - name: Run Rubocop
         run: bundle exec rake rubocop
       - name: Build gem
-        run: gem build *.gemspec
+        run: gem build --strict --verbose *.gemspec
