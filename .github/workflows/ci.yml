@@ -1,0 +1,26 @@
+---
+name: ⚒️ CI
+
+on:
+  pull_request: {}
+  push:
+    branches:
+      - master
+
+env:
+  BUNDLE_WITHOUT: release
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Ruby 2.7
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "2.7"
+          bundler-cache: true
+      - name: Run Rubocop
+        run: bundle exec rake rubocop
+      - name: Build gem
+        run: gem build *.gemspec
