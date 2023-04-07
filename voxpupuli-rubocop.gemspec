@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Helper Gem that pulls in all the RuboCop related gems and provides a RuboCop configuration'
   s.description = 'Used in Vox Pupuli gems to configure RuboCop in a unified and centralised way'
   s.licenses    = 'Apache-2.0'
-  s.files       = Dir['lib/**/*.rb']
+  s.files       = Dir['lib/**/*.rb'] + ['rubocop.yml']
 
   s.required_ruby_version = '>= 2.7.0'
 
