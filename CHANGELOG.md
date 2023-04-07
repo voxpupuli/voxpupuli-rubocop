@@ -1,8 +1,17 @@
 # Changelog
 
-## [1.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/1.0.0) (2023-04-07)
+## [1.0.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/1.0.1) (2023-04-07)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/56b3b37af992e085209109be9b3d71eb382f58ce...1.0.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.0.0...1.0.1)
+
+**Fixed bugs:**
+
+- Add Gemfile.lock to .gitignore [\#5](https://github.com/voxpupuli/voxpupuli-rubocop/pull/5) ([bastelfreak](https://github.com/bastelfreak))
+- gemspec: Include rubocop.yml [\#4](https://github.com/voxpupuli/voxpupuli-rubocop/pull/4) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v1.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v1.0.0) (2023-04-07)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/56b3b37af992e085209109be9b3d71eb382f58ce...v1.0.0)
 
 **Implemented enhancements:**
 
