@@ -44,7 +44,7 @@ To use our default config, create a `.rubocop.yml`:
 ```
 ---
 inherit_gem:
-  beaker: rubocop.yml
+  voxpupuli-rubocop: rubocop.yml
 ```
 
 You maybe see a bunch of violations with the new configuration. A common path
