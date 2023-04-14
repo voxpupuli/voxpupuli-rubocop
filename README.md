@@ -21,7 +21,7 @@ used in all Vox Pupuli gems.
 In your Gemfile, add the following:
 
 ```
-gem 'voxpupuli-rubocop', '~> 1.0'
+gem 'voxpupuli-rubocop', '~> 1.1'
 ```
 
 In your Rakefile, include our Rake task:

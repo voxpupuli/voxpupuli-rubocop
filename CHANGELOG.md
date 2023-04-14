@@ -1,8 +1,21 @@
 # Changelog
 
-## [1.0.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/1.0.1) (2023-04-07)
+## [1.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/1.1.0) (2023-04-14)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.0.0...1.0.1)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.0.1...1.1.0)
+
+**Implemented enhancements:**
+
+- Switch to rubocop 1.50 [\#11](https://github.com/voxpupuli/voxpupuli-rubocop/pull/11) ([bastelfreak](https://github.com/bastelfreak))
+- Allow rubocop-performance 1.17.x [\#9](https://github.com/voxpupuli/voxpupuli-rubocop/pull/9) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- Fix typo in README.md [\#7](https://github.com/voxpupuli/voxpupuli-rubocop/pull/7) ([smortex](https://github.com/smortex))
+
+## [v1.0.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v1.0.1) (2023-04-07)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.0.0...v1.0.1)
 
 **Fixed bugs:**
 
