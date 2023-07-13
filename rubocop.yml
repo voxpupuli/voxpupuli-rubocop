@@ -12,27 +12,27 @@ AllCops:
   DisplayStyleGuide: true
   TargetRubyVersion: '2.7'
   Exclude:
-  - vendor/**/*
-  - .vendor/**/*
+    - vendor/**/*
+    - .vendor/**/*
 
 # this currently doesn't work with the way we handle our secrets
 Gemspec/RequireMFA:
   Enabled: false
 
-# current Vox Pupuli default is to use `add_development_dependency` in the gemspec
+# Vox Pupuli default is to use `add_development_dependency` in the gemspec
 Gemspec/DevelopmentDependencies:
   Enabled: false
 
 Style/TrailingCommaInHashLiteral:
-  Enabled: True
+  Enabled: true
   EnforcedStyleForMultiline: consistent_comma
 
 Style/TrailingCommaInArrayLiteral:
-  Enabled: True
+  Enabled: true
   EnforcedStyleForMultiline: consistent_comma
 
 Style/TrailingCommaInArguments:
-  Enabled: True
+  Enabled: true
   EnforcedStyleForMultiline: comma
 
 Metrics:
