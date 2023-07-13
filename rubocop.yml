@@ -23,6 +23,9 @@ Gemspec/RequireMFA:
 Gemspec/DevelopmentDependencies:
   Enabled: false
 
+Style/TernaryParentheses:
+  EnforcedStyle: require_parentheses_when_complex
+
 Style/TrailingCommaInHashLiteral:
   Enabled: true
   EnforcedStyleForMultiline: consistent_comma
