@@ -1,8 +1,20 @@
 # Changelog
 
-## [1.4.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/1.4.0) (2023-07-07)
+## [2.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.0.0) (2023-07-13)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.3.0...1.4.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.4.0...2.0.0)
+
+**Breaking changes:**
+
+- Enforce require\_parentheses\_when\_complex style for ternaries [\#30](https://github.com/voxpupuli/voxpupuli-rubocop/pull/30) ([ekohl](https://github.com/ekohl))
+
+**Fixed bugs:**
+
+- Make rubocop yamllint clean [\#29](https://github.com/voxpupuli/voxpupuli-rubocop/pull/29) ([ekohl](https://github.com/ekohl))
+
+## [v1.4.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v1.4.0) (2023-07-07)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.3.0...v1.4.0)
 
 **Implemented enhancements:**
 
