@@ -1,8 +1,16 @@
 # Changelog
 
-## [2.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.0.0) (2023-07-13)
+## [2.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.1.0) (2023-11-23)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.4.0...2.0.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.0.0...2.1.0)
+
+**Implemented enhancements:**
+
+- Update all rubocop dependencies [\#42](https://github.com/voxpupuli/voxpupuli-rubocop/pull/42) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v2.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.0.0) (2023-07-13)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v1.4.0...v2.0.0)
 
 **Breaking changes:**
 
