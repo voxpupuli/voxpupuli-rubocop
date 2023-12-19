@@ -21,8 +21,17 @@ used in all Vox Pupuli gems.
 In your Gemfile, add the following:
 
 ```
-gem 'voxpupuli-rubocop', '~> 1.1'
+gem 'voxpupuli-rubocop', '~> 2.1.0'
 ```
+
+**We suggest to pin the minor version like above, because new minor versions will pull in newer rubocop versions**
+
+(A best practice, that we also follow in our Vox Pupuli Ruby Gems, is to pin
+like above and use dependabot. It will provide pull requests that allow
+newer minor versions. And in a CI pipeline you will see if the newer rubocop
+works without issues. That prevents your HEAD branch from breaking. If you've
+multiple repositories in your GitHub Org, you can filter for all dependabot PRs
+by checking for `label:ruby label:dependencies` (Vox Pupuli example)[https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+label%3Aruby+label%3Adependencies+user%3Avoxpupuli+]).
 
 In your Rakefile, include our Rake task:
 
