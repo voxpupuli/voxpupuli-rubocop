@@ -1,8 +1,17 @@
 # Changelog
 
-## [2.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.2.0) (2023-12-19)
+## [2.3.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.3.0) (2024-01-08)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.1.0...2.2.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.2.0...2.3.0)
+
+**Merged pull requests:**
+
+- Update rubocop-rspec requirement from ~\> 2.25.0 to ~\> 2.26.0 [\#50](https://github.com/voxpupuli/voxpupuli-rubocop/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
+- README.md: fix link formatting [\#49](https://github.com/voxpupuli/voxpupuli-rubocop/pull/49) ([kenyon](https://github.com/kenyon))
+
+## [v2.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.2.0) (2023-12-19)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.1.0...v2.2.0)
 
 **Merged pull requests:**
 
