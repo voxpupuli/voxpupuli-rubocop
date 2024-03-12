@@ -1,8 +1,17 @@
 # Changelog
 
-## [2.5.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.5.0) (2024-02-29)
+## [2.6.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.6.0) (2024-03-12)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.4.0...2.5.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.5.0...2.6.0)
+
+**Merged pull requests:**
+
+- Update rubocop-minitest requirement from ~\> 0.34.1 to~\> 0.35.0 [\#57](https://github.com/voxpupuli/voxpupuli-rubocop/pull/57) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update rubocop requirement from ~\> 1.61.0 to ~\> 1.62.0 [\#56](https://github.com/voxpupuli/voxpupuli-rubocop/pull/56) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v2.5.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.5.0) (2024-02-29)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.4.0...v2.5.0)
 
 **Merged pull requests:**
 
