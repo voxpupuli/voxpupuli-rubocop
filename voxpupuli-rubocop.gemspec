@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'voxpupuli-rubocop'
-  s.version     = '2.6.0'
+  s.version     = '2.7.0'
   s.authors     = ['Vox Pupuli']
   s.email       = ['voxpupuli@groups.io']
   s.homepage    = 'https://github.com/voxpupuli/voxpupuli-rubocop'
