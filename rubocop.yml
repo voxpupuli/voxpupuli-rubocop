@@ -14,6 +14,7 @@ AllCops:
   Exclude:
     - vendor/**/*
     - .vendor/**/*
+    - spec/fixtures/**/*
 
 # this currently doesn't work with the way we handle our secrets
 Gemspec/RequireMFA:
