@@ -1,8 +1,20 @@
 # Changelog
 
-## [2.7.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.7.0) (2024-05-10)
+## [2.7.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.7.1) (2024-06-28)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.6.0...2.7.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.0...2.7.1)
+
+**Fixed bugs:**
+
+- rubocop.yml: exclude fixtures directory [\#65](https://github.com/voxpupuli/voxpupuli-rubocop/pull/65) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- Document major release policy [\#64](https://github.com/voxpupuli/voxpupuli-rubocop/pull/64) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v2.7.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.7.0) (2024-05-11)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.6.0...v2.7.0)
 
 **Merged pull requests:**
 
