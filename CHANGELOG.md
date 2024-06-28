@@ -1,8 +1,17 @@
 # Changelog
 
-## [2.7.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.7.1) (2024-06-28)
+## [2.8.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.8.0) (2024-06-28)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.0...2.7.1)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.1...2.8.0)
+
+**Merged pull requests:**
+
+- Update rubocop-rspec requirement from ~\> 2.26 to ~\> 2.31.0 [\#63](https://github.com/voxpupuli/voxpupuli-rubocop/pull/63) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update rubocop requirement from ~\> 1.63.5 to ~\> 1.64.1 [\#62](https://github.com/voxpupuli/voxpupuli-rubocop/pull/62) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v2.7.1](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.7.1) (2024-06-28)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.0...v2.7.1)
 
 **Fixed bugs:**
 
