@@ -6,6 +6,9 @@
 [![RubyGem Version](https://img.shields.io/gem/v/voxpupuli-rubocop.svg)](https://rubygems.org/gems/voxpupuli-rubocop)
 [![RubyGem Downloads](https://img.shields.io/gem/dt/voxpupuli-rubocop.svg)](https://rubygems.org/gems/voxpupuli-rubocop)
 
+* [Usage](#usage)
+* [New major releases](#new-major-releases)
+
 This is one of the Vox Pupuli meta gems. It provides a convenient way to
 configure [RuboCop](https://rubocop.org/). RuboCop is the de facto standard Ruby
 Linter and Formatter. `voxpupuli-rubocop` depends on the correct RuboCop version
@@ -63,4 +66,23 @@ violations:
 
 ```
 bundle exec rubocop --regenerate-todo
+```
+
+## New major releases
+
+As described above, we will do new minor releases of voxpupuli-rubocop with
+newer RuboCop dependencies. We also ship a rubocop.yml that people can use. This
+file currently configures Ruby 2.7 as a target version. This will be adjusted in
+major releases.
+
+User of voxpupuli-rubocop don't have to use our rubocop.yml, they can just rely
+on our curated list of rubocop dependencies. Or overwrite the target version in
+their own rubocop.yaml:
+
+```
+inherit_gem:
+  voxpupuli-rubocop: rubocop.yml
+
+AllCops:
+  TargetRubyVersion: '3.3'
 ```
