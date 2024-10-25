@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake', '~> 13.0', '>= 13.0.6'
   s.add_dependency 'rubocop', '~> 1.67.0'
-  s.add_dependency 'rubocop-minitest', '~> 0.35.0'
-  s.add_dependency 'rubocop-performance', '~> 1.21.0'
+  s.add_dependency 'rubocop-minitest', '~> 0.36.0'
+  s.add_dependency 'rubocop-performance', '~> 1.22.1'
   s.add_dependency 'rubocop-rake', '~> 0.6.0'
   s.add_dependency 'rubocop-rspec', '~> 3.1.0'
 end
