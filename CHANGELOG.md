@@ -1,8 +1,24 @@
 # Changelog
 
-## [2.8.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/2.8.0) (2024-06-28)
+## [3.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/3.0.0) (2024-10-25)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.1...2.8.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.8.0...3.0.0)
+
+This release updates rubocop-rspec to a new major version. It enables multiple Cops by default. Please read their changelog: https://github.com/rubocop/rubocop-rspec/blob/master/CHANGELOG.md#300-2024-06-11
+
+**Breaking changes:**
+
+- rubocop-rspec: Update 2.31 -\> 3.1 [\#71](https://github.com/voxpupuli/voxpupuli-rubocop/pull/71) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- rubocop-performance: Update 1.21.0-\>1.22.1 [\#73](https://github.com/voxpupuli/voxpupuli-rubocop/pull/73) ([bastelfreak](https://github.com/bastelfreak))
+- rubocop-minitest: Update 0.35.0-\>0.36.0 [\#72](https://github.com/voxpupuli/voxpupuli-rubocop/pull/72) ([bastelfreak](https://github.com/bastelfreak))
+- rubocop: Update 1.64.1-\>1.67.0 [\#70](https://github.com/voxpupuli/voxpupuli-rubocop/pull/70) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v2.8.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v2.8.0) (2024-06-28)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.7.1...v2.8.0)
 
 **Merged pull requests:**
 
