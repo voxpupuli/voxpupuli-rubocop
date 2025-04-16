@@ -1,10 +1,4 @@
 ---
-require:
-  - rubocop-performance
-  - rubocop-rake
-  - rubocop-rspec
-  - rubocop-minitest
-
 AllCops:
   NewCops: enable
   DisplayCopNames: true
@@ -15,6 +9,12 @@ AllCops:
     - vendor/**/*
     - .vendor/**/*
     - spec/fixtures/**/*
+
+plugins:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-minitest
 
 # this currently doesn't work with the way we handle our secrets
 Gemspec/RequireMFA:
