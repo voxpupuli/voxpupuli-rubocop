@@ -1,8 +1,16 @@
 # Changelog
 
-## [3.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/3.0.0) (2024-10-25)
+## [3.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/3.1.0) (2025-04-16)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.8.0...3.0.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v3.0.0...3.1.0)
+
+**Implemented enhancements:**
+
+- Update rubocop gems to latest versions [\#76](https://github.com/voxpupuli/voxpupuli-rubocop/pull/76) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v3.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v3.0.0) (2024-10-25)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v2.8.0...v3.0.0)
 
 This release updates rubocop-rspec to a new major version. It enables multiple Cops by default. Please read their changelog: https://github.com/rubocop/rubocop-rspec/blob/master/CHANGELOG.md#300-2024-06-11
 
