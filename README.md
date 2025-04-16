@@ -24,7 +24,7 @@ used in all Vox Pupuli gems.
 In your Gemfile, add the following:
 
 ```
-gem 'voxpupuli-rubocop', '~> 2.1.0'
+gem 'voxpupuli-rubocop', '~> 4.0.0'
 ```
 
 **We suggest to pin the minor version like above, because new minor versions will pull in newer rubocop versions**
@@ -72,8 +72,10 @@ bundle exec rubocop --regenerate-todo
 
 As described above, we will do new minor releases of voxpupuli-rubocop with
 newer RuboCop dependencies. We also ship a rubocop.yml that people can use. This
-file currently configures Ruby 2.7 as a target version. This will be adjusted in
+file currently configures Ruby 3.1 as a target version. This will be adjusted in
 major releases.
+
+The 3.x releases configured Ruby 2.7.
 
 User of voxpupuli-rubocop don't have to use our rubocop.yml, they can just rely
 on our curated list of rubocop dependencies. Or overwrite the target version in
@@ -84,5 +86,5 @@ inherit_gem:
   voxpupuli-rubocop: rubocop.yml
 
 AllCops:
-  TargetRubyVersion: '3.3'
+  TargetRubyVersion: '3.4'
 ```

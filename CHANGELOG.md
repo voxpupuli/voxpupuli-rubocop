@@ -1,8 +1,16 @@
 # Changelog
 
-## [3.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/3.1.0) (2025-04-16)
+## [4.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.0.0) (2025-04-16)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v3.0.0...3.1.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v3.1.0...4.0.0)
+
+**Breaking changes:**
+
+- Bump target Ruby version from 2.7-\>3.1 [\#78](https://github.com/voxpupuli/voxpupuli-rubocop/pull/78) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v3.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v3.1.0) (2025-04-16)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v3.0.0...v3.1.0)
 
 **Implemented enhancements:**
 
