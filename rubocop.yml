@@ -41,3 +41,6 @@ Style/TrailingCommaInArguments:
 
 Metrics:
   Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
