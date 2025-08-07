@@ -7,8 +7,8 @@ on:
     branches:
       - master
 
-env:
-  BUNDLE_WITHOUT: release
+permissions:
+  contents: read # minimal required permissions to clone repo
 
 jobs:
   rubocop:
