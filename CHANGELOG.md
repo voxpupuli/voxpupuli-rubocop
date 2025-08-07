@@ -1,8 +1,18 @@
 # Changelog
 
-## [4.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.1.0) (2025-05-27)
+## [4.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.2.0) (2025-08-07)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.0.0...4.1.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.1.0...4.2.0)
+
+**Implemented enhancements:**
+
+- rubocop: Update 1.75.2-\>1.79.2 [\#84](https://github.com/voxpupuli/voxpupuli-rubocop/pull/84) ([bastelfreak](https://github.com/bastelfreak))
+- Add CI workflow and set token permissions [\#83](https://github.com/voxpupuli/voxpupuli-rubocop/pull/83) ([bastelfreak](https://github.com/bastelfreak))
+- RSpec/MultipleExpectations: Disable the cop [\#82](https://github.com/voxpupuli/voxpupuli-rubocop/pull/82) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v4.1.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v4.1.0) (2025-05-28)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.0.0...v4.1.0)
 
 **Implemented enhancements:**
 
