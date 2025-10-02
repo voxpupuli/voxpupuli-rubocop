@@ -1,8 +1,16 @@
 # Changelog
 
-## [4.3.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.3.0) (2025-10-02)
+## [5.0.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/5.0.0) (2025-10-02)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.2.0...4.3.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.3.0...5.0.0)
+
+**Breaking changes:**
+
+- Require Ruby 3.2+ [\#92](https://github.com/voxpupuli/voxpupuli-rubocop/pull/92) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v4.3.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v4.3.0) (2025-10-02)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.2.0...v4.3.0)
 
 **Implemented enhancements:**
 
