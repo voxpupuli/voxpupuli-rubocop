@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.licenses    = 'Apache-2.0'
   s.files       = Dir['lib/**/*.rb'] + ['rubocop.yml']
 
-  s.required_ruby_version = '>= 3.1.0'
+  s.required_ruby_version = '>= 3.2.0'
 
   s.add_dependency 'rake', '~> 13.0', '>= 13.0.6'
   s.add_dependency 'rubocop', '~> 1.81.1'

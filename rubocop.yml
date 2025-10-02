@@ -4,7 +4,7 @@ AllCops:
   DisplayCopNames: true
   ExtraDetails: true
   DisplayStyleGuide: true
-  TargetRubyVersion: '3.1'
+  TargetRubyVersion: '3.2'
   Exclude:
     - vendor/**/*
     - .vendor/**/*

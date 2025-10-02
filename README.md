@@ -65,16 +65,17 @@ a "RuboCop ToDo file", which is basically an allow-list of all current
 violations:
 
 ```
-bundle exec rubocop --regenerate-todo
+bundle exec rubocop --regenerate-todo --no-auto-gen-timestamp
 ```
 
 ## New major releases
 
-As described above, we will do new minor releases of voxpupuli-rubocop with
-newer RuboCop dependencies. We also ship a rubocop.yml that people can use. This
-file currently configures Ruby 3.1 as a target version. This will be adjusted in
-major releases.
+As described above, we will do new minor releases of voxpupuli-rubocop with newer RuboCop dependencies.
+We also ship a rubocop.yml that people can use.
+This file currently configures Ruby 3.2 as a target version.
+This will be adjusted in major releases.
 
+The 4.x releases configured Ruby 3.1.
 The 3.x releases configured Ruby 2.7.
 
 User of voxpupuli-rubocop don't have to use our rubocop.yml, they can just rely
