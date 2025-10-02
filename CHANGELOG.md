@@ -1,8 +1,18 @@
 # Changelog
 
-## [4.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.2.0) (2025-08-07)
+## [4.3.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/4.3.0) (2025-10-02)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.1.0...4.2.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.2.0...4.3.0)
+
+**Implemented enhancements:**
+
+- rubocop-rspec: Require 3.7 [\#89](https://github.com/voxpupuli/voxpupuli-rubocop/pull/89) ([bastelfreak](https://github.com/bastelfreak))
+- rubocop-performance: Require 1.26 [\#88](https://github.com/voxpupuli/voxpupuli-rubocop/pull/88) ([bastelfreak](https://github.com/bastelfreak))
+- rubocop: Require 1.81 [\#87](https://github.com/voxpupuli/voxpupuli-rubocop/pull/87) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v4.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v4.2.0) (2025-08-07)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v4.1.0...v4.2.0)
 
 **Implemented enhancements:**
 
