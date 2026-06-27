@@ -6,8 +6,9 @@
 [![RubyGem Version](https://img.shields.io/gem/v/voxpupuli-rubocop.svg)](https://rubygems.org/gems/voxpupuli-rubocop)
 [![RubyGem Downloads](https://img.shields.io/gem/dt/voxpupuli-rubocop.svg)](https://rubygems.org/gems/voxpupuli-rubocop)
 
-* [Usage](#usage)
-* [New major releases](#new-major-releases)
+- [Vox Pupuli RuboCop Gem](#vox-pupuli-rubocop-gem)
+  - [Usage](#usage)
+  - [New major releases](#new-major-releases)
 
 This is one of the Vox Pupuli meta gems. It provides a convenient way to
 configure [RuboCop](https://rubocop.org/). RuboCop is the de facto standard Ruby
@@ -23,7 +24,7 @@ used in all Vox Pupuli gems.
 
 In your Gemfile, add the following:
 
-```
+```ruby
 gem 'voxpupuli-rubocop', '~> 4.0.0'
 ```
 
@@ -38,22 +39,23 @@ by checking for `label:ruby label:dependencies` [Vox Pupuli example](https://git
 
 In your Rakefile, include our Rake task:
 
-```
+```ruby
 require 'voxpupuli/rubocop/rake'
 ```
 
-Now you can list your rake tasks and should see three new ones:
+Now you can list your rake tasks and should see four new ones:
 
 ```terminal
-bundle exec rake -T
+bundle exec rake -T rubocop
 rake rubocop                  # Run RuboCop
 rake rubocop:autocorrect      # Autocorrect RuboCop offenses (only when it's safe)
 rake rubocop:autocorrect_all  # Autocorrect RuboCop offenses (safe and unsafe)
+rake rubocop:regenerate_todo  # Generate or refresh the RuboCop TODO file
 ```
 
 To use our default config, create a `.rubocop.yml`:
 
-```
+```yaml
 ---
 inherit_gem:
   voxpupuli-rubocop: rubocop.yml
@@ -65,7 +67,7 @@ a "RuboCop ToDo file", which is basically an allow-list of all current
 violations:
 
 ```
-bundle exec rubocop --regenerate-todo --no-auto-gen-timestamp
+bundle exec rake rubocop:regenerate_todo
 ```
 
 ## New major releases
@@ -82,7 +84,8 @@ User of voxpupuli-rubocop don't have to use our rubocop.yml, they can just rely
 on our curated list of rubocop dependencies. Or overwrite the target version in
 their own rubocop.yaml:
 
-```
+```yaml
+---
 inherit_gem:
   voxpupuli-rubocop: rubocop.yml
 
