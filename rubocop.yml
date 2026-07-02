@@ -44,3 +44,8 @@ Metrics:
 
 RSpec/MultipleExpectations:
   Enabled: false
+
+# creates hard to read (and often long) lines
+# https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Style/GuardClause
+Style/GuardClause:
+  Enabled: False
