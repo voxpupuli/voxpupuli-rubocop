@@ -1,8 +1,21 @@
 # Changelog
 
-## [5.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/5.2.0) (2026-03-16)
+## [5.3.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/5.3.0) (2026-10-03)
 
-[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v5.1.0...5.2.0)
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v5.2.0...5.3.0)
+
+**Implemented enhancements:**
+
+- rubocop: Update ~\> 1.85.1 to ~\> 1.91.0 [\#120](https://github.com/voxpupuli/voxpupuli-rubocop/pull/120) ([dependabot[bot]](https://github.com/apps/dependabot))
+- rubocop-performance: Update 1.26.0 to \> 1.27.0 [\#118](https://github.com/voxpupuli/voxpupuli-rubocop/pull/118) ([dependabot[bot]](https://github.com/apps/dependabot))
+- rubocop-minitest: Update ~\> 0.39.1 to ~\> 0.41.0 [\#116](https://github.com/voxpupuli/voxpupuli-rubocop/pull/116) ([dependabot[bot]](https://github.com/apps/dependabot))
+- feat: add rubocop:regenerate\_todo task [\#115](https://github.com/voxpupuli/voxpupuli-rubocop/pull/115) ([rwaffen](https://github.com/rwaffen))
+- rubocop-rspec: Update ~\> 3.9.0 to ~\> 3.10.2 [\#111](https://github.com/voxpupuli/voxpupuli-rubocop/pull/111) ([dependabot[bot]](https://github.com/apps/dependabot))
+- rubocop: Update 1.85.1-\>1.86.0 [\#107](https://github.com/voxpupuli/voxpupuli-rubocop/pull/107) ([bastelfreak](https://github.com/bastelfreak))
+
+## [v5.2.0](https://github.com/voxpupuli/voxpupuli-rubocop/tree/v5.2.0) (2026-03-16)
+
+[Full Changelog](https://github.com/voxpupuli/voxpupuli-rubocop/compare/v5.1.0...v5.2.0)
 
 **Implemented enhancements:**
 
